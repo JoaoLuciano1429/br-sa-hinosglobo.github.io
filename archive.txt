@@ -1,0 +1,24 @@
+Rebaixados Brasileirão 2023:
+
+      <button class="soundBtn" id="AMG">
+        <img src="img/AmericaFCMG.png" />
+        <audio
+          id="AmericaMG"
+          src="audio/Hino_do_America-MG_-_Globo.mp3"
+        ></audio>
+      </button>
+      <button class="soundBtn" id="CFC">
+        <img src="img/logo-coritiba-512.png" />
+        <audio
+          id="Coritiba"
+          src="audio/Hino do Coritiba - Globo SP.mp3"
+        ></audio>
+      </button>
+      <button class="soundBtn" id="GOI">
+        <img src="img/goias.png" />
+        <audio id="Goias" src="audio/Hino do Goiás - Globo SP.mp3"></audio>
+      </button>
+      <button class="soundBtn" id="SAN">
+        <img src="img/santos-logo-escudo-9.png" />
+        <audio src="audio/Hino do Santos - Globo SP.mp3" id="Santos"></audio>
+      </button>

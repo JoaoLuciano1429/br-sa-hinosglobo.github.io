@@ -97,3 +97,23 @@ document.getElementById("VAS").addEventListener("click", function (ev) {
   ev = document.getElementById("Vasco");
   ev.play();
 });
+
+document.getElementById("ACG").addEventListener("click", (ev) => {
+  ev = document.getElementById("AtleticoGO");
+  ev.play();
+});
+
+document.getElementById("CRI").addEventListener("click", (ev) => {
+  ev = document.getElementById("Criciuma");
+  ev.play();
+});
+
+document.getElementById("JUV").addEventListener("click", (ev) => {
+  ev = document.getElementById("Juventude");
+  ev.play();
+});
+
+document.getElementById("VIT").addEventListener("click", (ev) => {
+  ev = document.getElementById("Vitoria");
+  ev.play();
+});
