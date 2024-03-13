@@ -1,7 +1,7 @@
-document.getElementById("AMG").addEventListener("click", function (ev) {
-  ev = document.getElementById("AmericaMG");
-  ev.play();
-});
+// document.getElementById("AMG").addEventListener("click", function (ev) {
+//   ev = document.getElementById("AmericaMG");
+//   ev.play();
+// });
 
 document.getElementById("CAP").addEventListener("click", function (ev) {
   ev = document.getElementById("AthleticoPR");
@@ -28,10 +28,10 @@ document.getElementById("COR").addEventListener("click", function (ev) {
   ev.play();
 });
 
-document.getElementById("CFC").addEventListener("click", function (ev) {
-  ev = document.getElementById("Coritiba");
-  ev.play();
-});
+// document.getElementById("CFC").addEventListener("click", function (ev) {
+//   ev = document.getElementById("Coritiba");
+//   ev.play();
+// });
 
 document.getElementById("CRU").addEventListener("click", function (ev) {
   ev = document.getElementById("Cruzeiro");
@@ -58,10 +58,10 @@ document.getElementById("FOR").addEventListener("click", function (ev) {
   ev.play();
 });
 
-document.getElementById("GOI").addEventListener("click", function (ev) {
-  ev = document.getElementById("Goias");
-  ev.play();
-});
+// document.getElementById("GOI").addEventListener("click", function (ev) {
+//   ev = document.getElementById("Goias");
+//   ev.play();
+// });
 
 document.getElementById("GRE").addEventListener("click", function (ev) {
   ev = document.getElementById("Gremio");
@@ -83,10 +83,10 @@ document.getElementById("RBB").addEventListener("click", function (ev) {
   ev.play();
 });
 
-document.getElementById("SAN").addEventListener("click", function (ev) {
-  ev = document.getElementById("Santos");
-  ev.play();
-});
+// document.getElementById("SAN").addEventListener("click", function (ev) {
+//   ev = document.getElementById("Santos");
+//   ev.play();
+// });
 
 document.getElementById("SAO").addEventListener("click", function (ev) {
   ev = document.getElementById("SaoPaulo");
