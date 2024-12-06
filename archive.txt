@@ -22,3 +22,31 @@ Rebaixados Brasileirão 2023:
         <img src="img/santos-logo-escudo-9.png" />
         <audio src="audio/Hino do Santos - Globo SP.mp3" id="Santos"></audio>
       </button>
+
+  *Santos volta à Série A em 2025
+
+Rebaixados Brasileirão 2024:
+
+      <button class="soundBtn" id="ACG">
+        <img src="img/Atlético_Goianiense.svg.png" />
+        <audio
+          src="audio/hino do Atlético-GO versão Globo original Kaike Santana.mp3"
+          id="AtleticoGO"
+        ></audio>
+      </button>
+      <button class="soundBtn" id="CRI">
+        <img src="img/1200px-EscudoCriciumaEC.svg.png" />
+        <audio
+          src="audio/hino do Criciúma Versão Globo original Kaike Santana.mp3"
+          id="Criciuma"
+        ></audio>
+      </button>
+      <button class="soundBtn" id="CUI">
+        <img src="img/cuiaba.png" />
+        <audio
+          id="Cuiaba"
+          src="audio/hino_do_Cuiaba_Versao_Globo_original_kaike_Santana.mp3"
+        ></audio>
+      </button>
+
+      *Quarto rebaixado a definir na 38ª rodada...
