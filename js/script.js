@@ -14,13 +14,13 @@ function stopAllSounds() {
 //   ev = document.getElementById("AmericaMG");
 //   ev.play();
 // });
-
+/*
 document.getElementById("CAP").addEventListener("click", function (ev) {
   stopAllSounds();
   ev = document.getElementById("AthleticoPR");
   ev.play();
 });
-
+*/
 document.getElementById("CAM").addEventListener("click", function (ev) {
   stopAllSounds();
   ev = document.getElementById("AtleticoMG");
@@ -56,13 +56,13 @@ document.getElementById("CRU").addEventListener("click", function (ev) {
   ev = document.getElementById("Cruzeiro");
   ev.play();
 });
-
+/*
 document.getElementById("CUI").addEventListener("click", function (ev) {
   stopAllSounds();
   ev = document.getElementById("Cuiaba");
   ev.play();
 });
-
+*/
 document.getElementById("FLA").addEventListener("click", function (ev) {
   stopAllSounds();
   ev = document.getElementById("Flamengo");
@@ -111,11 +111,11 @@ document.getElementById("RBB").addEventListener("click", function (ev) {
   ev.play();
 });
 
-// document.getElementById("SAN").addEventListener("click", function (ev) {
-//   stopAllSounds();
-//   ev = document.getElementById("Santos");
-//   ev.play();
-// });
+document.getElementById("SAN").addEventListener("click", function (ev) {
+  stopAllSounds();
+  ev = document.getElementById("Santos");
+  ev.play();
+});
 
 document.getElementById("SAO").addEventListener("click", function (ev) {
   stopAllSounds();
@@ -128,19 +128,19 @@ document.getElementById("VAS").addEventListener("click", function (ev) {
   ev = document.getElementById("Vasco");
   ev.play();
 });
-
+/*
 document.getElementById("ACG").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("AtleticoGO");
   ev.play();
 });
-
+*/ /*
 document.getElementById("CRI").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("Criciuma");
   ev.play();
 });
-
+*/
 document.getElementById("JUV").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("Juventude");
@@ -150,5 +150,23 @@ document.getElementById("JUV").addEventListener("click", (ev) => {
 document.getElementById("VIT").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("Vitoria");
+  ev.play();
+});
+
+document.getElementById("CEA").addEventListener("click", (ev) => {
+  stopAllSounds();
+  ev = document.getElementById("Ceara");
+  ev.play();
+});
+
+document.getElementById("MIR").addEventListener("click", (ev) => {
+  stopAllSounds();
+  ev = document.getElementById("Mirassol");
+  ev.play();
+});
+
+document.getElementById("SPO").addEventListener("click", (ev) => {
+  stopAllSounds();
+  ev = document.getElementById("SportRecife");
   ev.play();
 });

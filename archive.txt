@@ -48,5 +48,10 @@ Rebaixados Brasileirão 2024:
           src="audio/hino_do_Cuiaba_Versao_Globo_original_kaike_Santana.mp3"
         ></audio>
       </button>
-
-      *Quarto rebaixado a definir na 38ª rodada...
+            <button class="soundBtn" id="CAP">
+        <img src="img/athletico-pr.png" />
+        <audio
+          id="AthleticoPR"
+          src="audio/Hino do Athletico - Globo SP.mp3"
+        ></audio>
+      </button>

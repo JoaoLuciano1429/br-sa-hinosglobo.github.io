@@ -110,7 +110,12 @@ h1 {
 }
 
 #FOR {
-  background-image: linear-gradient(90deg, #0000ff 0%, #ffffff 50%, #FF0000 100%);
+  background-image: linear-gradient(
+    90deg,
+    #0000ff 0%,
+    #ffffff 50%,
+    #ff0000 100%
+  );
   border: 1px solid #aaa;
 }
 
@@ -162,25 +167,70 @@ h1 {
 
 #CRI {
   background-color: #ffff00;
-background-image: linear-gradient(180deg, #ffff00 0%, #000000 50%, #ffffff 100%);
-border: 1px solid #242424;
+  background-image: linear-gradient(
+    180deg,
+    #ffff00 0%,
+    #000000 50%,
+    #ffffff 100%
+  );
+  border: 1px solid #242424;
 }
 
-#CRI > img{
+#CRI > img {
   width: 3rem;
 }
 
 #JUV {
   background-color: #009d00;
-background-image: linear-gradient(90deg, #009d00 0%, #ffffff 50%, #009d00 100%);
+  background-image: linear-gradient(
+    90deg,
+    #009d00 0%,
+    #ffffff 50%,
+    #009d00 100%
+  );
   border: 1px solid #070;
 }
 
-#JUV > img{
+#JUV > img {
   width: 2.75rem;
 }
 
 #VIT {
-    background: linear-gradient(90deg, #bb0000 0%, #000000 50%, #bb0000 100%);
+  background: linear-gradient(90deg, #bb0000 0%, #000000 50%, #bb0000 100%);
   border: 1px solid #616161;
+}
+
+#CEA {
+  background-color: #000000;
+  background-image: linear-gradient(
+    90deg,
+    #000000 0%,
+    #ffffff 25%,
+    #000000 50%,
+    #ffffff 75%,
+    #000000 100%
+  );
+  border: 1px solid #fff;
+}
+
+#MIR {
+  background-color: #fff300;
+  background-image: linear-gradient(
+    180deg,
+    #fff300 0%,
+    #14c300 50%,
+    #fff300 100%
+  );
+  border: 1px solid #fff;
+}
+
+#SPO {
+  background-color: #ff2f00;
+  background-image: linear-gradient(
+    180deg,
+    #ff2f00 0%,
+    #000000 50%,
+    #ff2f00 100%
+  );
+  border: 1px solid #ff0;
 }
