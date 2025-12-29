@@ -234,3 +234,19 @@ h1 {
   );
   border: 1px solid #ff0;
 }
+
+#CHA {
+  background-color: #00640a;
+  background-image: linear-gradient(
+    90deg,
+    #00640a 0%,
+    #00ff00 50%,
+    #00640a 100%
+  );
+  border: 1px solid #ccc;
+}
+#REM {
+  background-color: #010f2e;
+  background-image: linear-gradient(180deg, #010f2e 0%, #013 100%);
+  border: 1px solid #cdcdcd;
+}

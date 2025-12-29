@@ -55,3 +55,30 @@ Rebaixados Brasileirão 2024:
           src="audio/Hino do Athletico - Globo SP.mp3"
         ></audio>
       </button>
+
+Rebaixados Brasileirão 2025:
+      <button class="soundBtn" id="CEA">
+        <img src="img/Ceará_Sporting_Club.png" />
+        <audio
+          src="audio/Hino do Ceará - Globo (Versão Kasan).mp3"
+          id="Ceara"
+        ></audio>
+      </button>
+      <button class="soundBtn" id="FOR">
+        <img src="img/FORTALEZA.png" />
+        <audio id="Fortaleza" src="audio/Hino do Fortaleza - Globo.mp3"></audio>
+      </button>
+      <button class="soundBtn" id="JUV">
+        <img src="img/logo-juventude-4096.png" />
+        <audio
+          src="audio/Hino do Juventude - Globo SP (Versão Kasan).mp3"
+          id="Juventude"
+        ></audio>
+      </button>
+      <button class="soundBtn" id="SPO">
+        <img src="img/sport-recife.png" />
+        <audio
+          src="audio/hino do Sport Recife Versão Globo original Kaike Santana.mp3"
+          id="SportRecife"
+        ></audio>
+      </button>

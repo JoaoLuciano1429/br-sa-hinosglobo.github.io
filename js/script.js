@@ -14,13 +14,13 @@ function stopAllSounds() {
 //   ev = document.getElementById("AmericaMG");
 //   ev.play();
 // });
-/*
+
 document.getElementById("CAP").addEventListener("click", function (ev) {
   stopAllSounds();
   ev = document.getElementById("AthleticoPR");
   ev.play();
 });
-*/
+
 document.getElementById("CAM").addEventListener("click", function (ev) {
   stopAllSounds();
   ev = document.getElementById("AtleticoMG");
@@ -44,12 +44,11 @@ document.getElementById("COR").addEventListener("click", function (ev) {
   ev = document.getElementById("Corinthians");
   ev.play();
 });
-
-// document.getElementById("CFC").addEventListener("click", function (ev) {
-//   stopAllSounds();
-//   ev = document.getElementById("Coritiba");
-//   ev.play();
-// });
+document.getElementById("CFC").addEventListener("click", function (ev) {
+  stopAllSounds();
+  ev = document.getElementById("Coritiba");
+  ev.play();
+});
 
 document.getElementById("CRU").addEventListener("click", function (ev) {
   stopAllSounds();
@@ -74,12 +73,12 @@ document.getElementById("FLU").addEventListener("click", function (ev) {
   ev = document.getElementById("Fluminense");
   ev.play();
 });
-
+/*
 document.getElementById("FOR").addEventListener("click", function (ev) {
   stopAllSounds();
   ev = document.getElementById("Fortaleza");
   ev.play();
-});
+}); */
 
 // document.getElementById("GOI").addEventListener("click", function (ev) {
 //   stopAllSounds();
@@ -140,12 +139,12 @@ document.getElementById("CRI").addEventListener("click", (ev) => {
   ev = document.getElementById("Criciuma");
   ev.play();
 });
-*/
+*/ /*
 document.getElementById("JUV").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("Juventude");
   ev.play();
-});
+}); */
 
 document.getElementById("VIT").addEventListener("click", (ev) => {
   stopAllSounds();
@@ -153,20 +152,32 @@ document.getElementById("VIT").addEventListener("click", (ev) => {
   ev.play();
 });
 
+/*
 document.getElementById("CEA").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("Ceara");
   ev.play();
 });
-
+*/
 document.getElementById("MIR").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("Mirassol");
   ev.play();
 });
-
+/*
 document.getElementById("SPO").addEventListener("click", (ev) => {
   stopAllSounds();
   ev = document.getElementById("SportRecife");
+  ev.play();
+});
+*/
+document.getElementById("CHA").addEventListener("click", (ev) => {
+  stopAllSounds();
+  ev = document.getElementById("Chapecoense");
+  ev.play();
+});
+document.getElementById("REM").addEventListener("click", (ev) => {
+  stopAllSounds();
+  ev = document.getElementById("Remo");
   ev.play();
 });
